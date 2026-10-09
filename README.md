@@ -16,7 +16,7 @@ make pipeline
 make dashboard
 ```
 
-Python 3.10 or newer is required. `make setup` installs the dependencies. `make pipeline` loads all source data, calculates cell frequencies, runs the treatment-response statistics, and produces the baseline subset summaries without manual intervention.
+Codespaces uses Python 3.11 through the included dev-container configuration. For local use, Python 3.10–3.12 is recommended with the pinned dependencies. `make setup` installs the dependencies. `make pipeline` loads all source data, calculates cell frequencies, runs the treatment-response statistics, and produces the baseline subset summaries without manual intervention.
 
 The pipeline creates `mydb.db` in the repository root and exports the results to `outputs/`. Rerunning it replaces the loaded data and regenerates the outputs. The source data is in `data/cell-count.csv`.
 

@@ -1,0 +1,11 @@
+{
+  "name": "Teiko Python 3.11",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit dashboard",
+      "onAutoForward": "notify"
+    }
+  }
+}
