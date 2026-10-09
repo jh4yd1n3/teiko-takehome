@@ -1,0 +1,13 @@
+frequencies.csv
+mydb.db
+__pycache__/
+treatment_subject_averages.csv
+treatment_statistics.csv
+baseline_samples.csv
+samples_by_project.csv
+subjects_by_response.csv
+subjects_by_sex.csv
+baseline_male_b_cell_average.csv
+outputs/
+.venv/
+.DS_Store
